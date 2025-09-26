@@ -1,0 +1,14 @@
+<launch>
+  <node pkg="ipa_room_segmentation_tools"
+        type="map_to_room_seg_client.py"
+        name="map_to_room_seg_client"
+        output="screen">
+    <param name="map_topic" value="/map"/>
+    <param name="server_name" value="/room_segmentation/room_segmentation_server"/>
+    <param name="debounce_sec" value="2.0"/>
+    <param name="robot_radius" value="0.30"/>
+    <param name="room_segmentation_algorithm" value="3"/>
+    <param name="return_format_in_pixel" value="true"/>
+    <param name="return_format_in_meter" value="false"/>
+  </node>
+</launch>
