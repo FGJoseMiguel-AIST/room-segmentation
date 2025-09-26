@@ -1,0 +1,18 @@
+# Editors
+.vscode/
+
+# ROS/colcon/catkin artifacts
+ws/build/
+ws/devel/
+ws/install/
+ws/logs/
+ws/.catkin_tools/
+
+# Python noise
+__pycache__/
+*.pyc
+
+# Optional: mapping/bag files generated at runtime
+*.bag
+*.pgm
+*.yaml
