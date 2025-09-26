@@ -1,0 +1,19 @@
+# Catkin / CMake
+build/
+devel/
+install/
+*.log
+*.bag
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# VSCode / IDE
+.vscode/
+.idea/
+
+# Otros
+*.swp
+.DS_Store
